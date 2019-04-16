@@ -6,7 +6,7 @@ from pygame.sprite import Group
 import game_functions as gf 
 
 def run_game():
-    # Initialpize game and create a screen objecr.
+    # Initialize game and create a screen object.
     pygame.init()
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
